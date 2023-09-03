@@ -1,0 +1,277 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7dcec;
+}
+
+/* Estilos para o cabeçalho fixo */
+.cabecalho {
+    background-color: #b46d78;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    z-index: 9999;
+}
+
+
+/* Estilos para o menu de links */
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Estilos para a seção "Home" */
+.secao-home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #b46d78, #f7dcec);
+    /* Adicione as cores desejadas */
+
+}
+
+.conteudo-home {
+    text-align: center;
+    font-family: 'EB-Garamond'; /* Adicione esta linha para definir a fonte */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 600px; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.foto-home {
+    width: 350px;
+    height: 350px;
+    background-image: url("img/perfil.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 54px;
+    margin-bottom: 1px;
+}
+
+p {
+    font-size: 25px;
+    color: #333;
+}
+
+/* Estilos para a seção "Sobre Mim" */
+.secao-sobre {
+    padding: 100px 0;
+    background-color: #f7dcec;
+
+}
+
+.conteudo-sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.foto-perfil {
+    width: 250px;
+    height: 250px;
+    background-image: url("img/sobre-mim.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.descricao {
+    flex: 1;
+}
+
+.descricao h2 {
+    font-size: 32px;
+}
+
+.descricao p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.secao-idiomas {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .idioma {
+    margin-bottom: 20px;
+  }
+  
+  progress {
+    width: 100%;
+    height: 20px;
+  }
+
+  /* Estilizando a barra de progresso */
+progress[value] {
+    appearance: none; /* Remove a aparência padrão */
+    height: 20px; /* Altura da barra de progresso */
+    width: 100%; /* Largura da barra de progresso */
+  }
+  
+  /* Estilizando a parte preenchida da barra de progresso */
+  progress[value]::-webkit-progress-value {
+    background-color: #8a555e; /* Cor de preenchimento */
+  }
+  
+  progress[value]::-moz-progress-bar {
+    background-color: #8a555e; /* Cor de preenchimento */
+  }
+
+
+/* Estilos para seção projetos */
+.secao-projetos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .botao-saiba-mais {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #b46d78;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+/* Estilos para a seção "Recomendações" */
+.secao-recomendacoes {
+    padding: 100px 0;
+    background-color: #f7dcec;
+}
+
+.conteudo-recomendacoes {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.recomendacao {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recomendacao h3 {
+    font-size: 24px;
+}
+
+.recomendacao p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilos para a seção "Contato" */
+.secao-contato {
+    padding: 100px 0;
+    background-color: #f7dcec;
+}
+
+.conteudo-contato {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.formulario-contato {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contato label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contato button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: #b46d78;
+}

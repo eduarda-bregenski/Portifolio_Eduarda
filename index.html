@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#idiomas">Formação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#recomendacoes">Recomendações</a></li>
+                <li><a href="#contato">Contato</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="secao-home">
+        <div class="conteudo-home">
+            <div class="foto-home"></div>
+            <h1>Eduarda Bregenski</h1>
+            <p>Analista de testes | QA | Cypress.io</p>
+        </div>
+    </section>
+
+    <section id="sobre" class="secao-sobre">
+        <div class="conteudo-sobre">
+            <div class="foto-perfil"></div>
+            <div class="descricao">
+                <h2>Sobre Mim</h2>
+                <p>Sou uma analista de testes de software com foco em testes funcionais, regressivos e automatizados
+                    usando Cypress.io. Tenho vasta experiência em garantir a qualidade de produtos digitais, encontrando
+                    e reportando bugs com precisão.
+                </p>
+                <p>Além do meu trabalho técnico, sou admiradora da literatura, desenhos e pinturas, encontrando formas
+                    criativas de expressão. Meus momentos de lazer são preenchidos com quebra-cabeças desafiadores e a
+                    alegria de criar doces caseiros.
+                </p>
+                <p>Além disso, tenho um coração para ajudar os outros e sempre prezo por garantir que meus familiares,
+                    amigos e colegas estejam bem, nunca medindo esforços para auxiliá-los em sua constante evolução.
+                </p>
+                <p>Moro em Curitiba, no Paraná, onde encontro equilíbrio entre minha carreira técnica e minhas
+                    atividades criativas e de lazer. Busco constantemente novos desafios e oportunidades para crescer
+                    como profissional e indivíduo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="idiomas" class="secao-idiomas">
+        <h2>Minha formação</h2>
+        <div class="idioma">
+            <p>Analise e desenvolvimento de sistemas - UNINTER</p>
+            <progress value="95" max="100"></progress>
+        </div>
+        <h2>Meus idiomas</h2>
+        <div class="idioma">
+            <p>Français</p>
+            <progress value="50" max="100"></progress>
+        </div>
+        <div class="idioma">
+            <p>English</p>
+            <progress value="20" max="100"></progress>
+        </div>
+        <div class="idioma">
+            <p>Português</p>
+            <progress value="100" max="100"></progress>
+        </div>
+        <p></p>
+        
+    </section>
+
+    <section id="projetos" class="secao-projetos">
+        <h2>Projetos</h2>
+        <div class="card">
+          <h3>Projeto com Cypress nível básico</h3>
+          <p>Este foi o meu primeiro projeto usando o cypress, ele foi feito na realização do curso cypress básico da escola Talking About Testing</p>
+          <a href="https://github.com/eduarda-bregenski/Projeto-Cypress-Basico-TAT" class="botao-saiba-mais">Saiba Mais</a>
+        </div>
+        <div class="card">
+          <h3>Projeto com Cypress nível intermediario</h3>
+          <p>Este foi meu segundo projeto usando o cypress, ele foi feito na realização do curso cypress intermediario da escola Talking About Testing</p>
+          <a href="https://github.com/eduarda-bregenski/curso-cypress-intermediario-TAT" class="botao-saiba-mais">Saiba Mais</a>
+        </div>
+      </section>
+
+    <section id="recomendacoes" class="secao-recomendacoes">
+        <div class="conteudo-recomendacoes">
+            <h2>Recomendações</h2>
+            <div class="recomendacao">
+                <h3>Alex Pereira Mahmud - Lider</h3>
+                <p>"É uma excelente funcionária, atenta aos detalhes e sabe ser autónoma na resolução de problemas. Ela
+                    sempre sugere boas ideias e agrega muito ao nosso time.
+                    "</p>
+            </div>
+            <div class="recomendacao">
+                <h3>Christian Saddock de Sá - Lider</h3>
+                <p>"É impressionante o quanto você supera expectativas #AlémDasExpectativas"</p>
+            </div>
+            <div class="recomendacao">
+                <h3>Fabricio Leite - Colega de trabalho</h3>
+                <p>"É uma excelente funcionária, atenta aos detalhes e sabe ser autónoma na resolução de problemas. Ela
+                    sempre sugere boas ideias e agrega muito ao nosso time.
+                    "</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="secao-contato">
+        <div class="conteudo-contato">
+            <h2>Contato</h2>
+            <p>Fique à vontade para entrar em contato comigo através do formulário abaixo:</p>
+            <form class="formulario-contato" action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
